@@ -1,0 +1,91 @@
+/* generic */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    height: 80px;
+    width: 1920px;
+    display: inline-block;
+    background-color: #fff;
+
+}
+
+
+body{
+    background-color: rgb(215, 211, 211);
+    
+}
+
+button{
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 10%;
+    height: 30px;
+    width: 90px;
+
+}
+
+#new-task-button{
+    background-color: rgb(10, 179, 246);
+    border: none;
+}
+#new-section-button{
+    background-color: rgb(251, 252, 253);
+    border: none;
+}
+span{
+    font-size: xx-small;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: gray;
+    padding: 2%;
+}
+/* utilities */
+.container{
+    display: block;
+    height: 720px;
+    width: 1080px;
+    background-color: rgb(249, 247, 247);
+    
+}
+
+.small-text{
+    font-size: xx-small;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #fff;
+    padding: 2%;
+
+}
+
+.page-modifiers{
+
+}
+
+/* header */
+
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+#page-title{
+    display: inline;
+    vertical-align: middle;
+    
+}
+
+/* body */
+
+#page-core{
+    margin:90px auto;
+}
+
+hr{
+   
+    
+}
