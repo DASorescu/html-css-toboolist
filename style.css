@@ -7,6 +7,89 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(215, 211, 211);
+    
+}
+/* utilities */
+.container{
+    display: block;
+    height: 720px;
+    width: 1080px;
+    background-color: rgb(249, 247, 247);
+    margin: 60px auto;
+    
+}
+.status{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid ;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+.done{
+    text-align: center;
+    color: green;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.undone{
+    color: red;
+}
+
+.task-description{
+    display: inline-block;
+    border-radius: 15px;
+    color: #fff;
+    vertical-align: middle;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+.blue{
+    background-color: #45ABEA;
+}
+
+.purple{
+background-color:rgb(156,114,228) ;
+}
+
+.green{
+background-color: rgb(100,192,169);
+}
+
+.orange{
+background-color: rgb(242,158,51);
+}
+
+.pink{
+background-color: rgb(216,99,161);
+}
+
+.lightgreen{
+background-color:rgb(176,201,37) ;
+}
+
+/* header */
+
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+#page-title{
+    display: inline;
+    vertical-align: middle;
+    
+}
+
 header{
     height: 80px;
     background-color: #fff;
@@ -20,10 +103,7 @@ h1{
 }
 
 
-body{
-    background-color: rgb(215, 211, 211);
-    
-}
+/* actions */
 
 section{
     height: 10%;
@@ -55,14 +135,6 @@ button{
     background-color: rgb(251, 252, 253);
     border: solid 0.5px;
 }
-/* utilities */
-.container{
-    display: block;
-    height: 720px;
-    width: 1080px;
-    background-color: rgb(249, 247, 247);
-    
-}
 
 .actions{
     font-size: xx-small;
@@ -70,33 +142,26 @@ button{
    
 }
 
-.page-modifiers{
-    
-}
+/* tasks */
 
-/* header */
-
-#logo{
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 20px;
-    padding-top: 10px;
+.tasks{
+    border: none;
+    margin-left: 50px;
+    margin-top: 40px;
 
 }
+li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
 
-#page-title{
+h1{
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#checkmark{
     vertical-align: middle;
-    
 }
 
-/* body */
-
-#page-core{
-    margin:90px auto;
-}
-
-hr{
-   
-    
-}
