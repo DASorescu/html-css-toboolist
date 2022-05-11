@@ -1,16 +1,22 @@
 /* generic */
 
 *{
+    border: 0;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
-div{
+header{
     height: 80px;
-    width: 1920px;
-    display: inline-block;
     background-color: #fff;
 
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
 }
 
 
@@ -19,28 +25,35 @@ body{
     
 }
 
-button{
-    margin-left: 5%;
-    margin-top: 2%;
-    border-radius: 10%;
-    height: 30px;
-    width: 90px;
-
+section{
+    height: 10%;
+    line-height: inherit;
+    border-bottom: 1px solid #D7D3D3;
+    vertical-align: middle;
 }
+.top-side{
+    margin-left: 50px;
+    line-height: 71px;
+    vertical-align: middle;
+}
+
+button{
+    vertical-align: middle;
+    border-radius: 10%;
+    padding: 5px 10px;
+    
+}
+
 
 #new-task-button{
+    color: #fff;
     background-color: rgb(10, 179, 246);
-    border: none;
+    border: solid 0.5px rgb(10, 179, 246);
 }
 #new-section-button{
+    color: #dedede;
     background-color: rgb(251, 252, 253);
-    border: none;
-}
-span{
-    font-size: xx-small;
-    font-family:Arial, Helvetica, sans-serif ;
-    color: gray;
-    padding: 2%;
+    border: solid 0.5px;
 }
 /* utilities */
 .container{
@@ -51,16 +64,14 @@ span{
     
 }
 
-.small-text{
+.actions{
     font-size: xx-small;
     font-family:Arial, Helvetica, sans-serif ;
-    color: #fff;
-    padding: 2%;
-
+   
 }
 
 .page-modifiers{
-
+    
 }
 
 /* header */
